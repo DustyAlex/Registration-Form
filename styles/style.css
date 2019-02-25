@@ -1,0 +1,75 @@
+
+/* prevent padding from affecting width */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #344a72;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.container {
+    margin: 25px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.wrapper {
+    background: #ffffff;
+    padding: 15px 25px;
+    color: #333333;
+}
+
+.wrapper h1, p {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 15px;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 0.5rem;
+}
+
+#submit {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background: #49c1a2;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #37a08e;
+}
+
+.form-group label {
+    display: block;
+    color: #666666;
+}
+
+a {
+    text-decoration: none;
+}
+
+#TermsAndConditions {
+    display: block;
+    text-align: center;
+}
+
+#registered {
+    text-align: center;
+}
